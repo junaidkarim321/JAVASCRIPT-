@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //filter is used to  find every single value and if it is in te array 
+        //it will find te values and and give us array as result
+        var ages =[10,30,20,];
+        var b=ages.filter(checkadult);
+        function checkadult(age){
+            return age >=18;
+        }
+        document.write(b);
+    </script>
+</body>
+</html>

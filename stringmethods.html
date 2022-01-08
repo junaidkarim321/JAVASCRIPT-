@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // length
+        var str = "hellow world"
+        var a = str.length;
+        document.write(a);
+        // it will count the singlr letter
+        document.write("<br>")
+        //lowercase
+        var str = "hellow world"
+        var b = str.toLowerCase();
+        document.write(b);
+
+        document.write("<br>")
+        //uppercase
+        var str = "hellow world"
+        var c = str.toLocaleUpperCase();
+        document.write(c);
+
+
+        document.write("<br>")
+        //includes
+        var str = "hellow world"
+        var d = str.includes("hellow");
+        document.write(d);
+        // it will retrun true is hellow world is
+
+        document.write("<br>")
+        // start with
+        // it is used to find the first word
+        var str = "hellow world"
+        var e = str.startsWith("hellow");
+        document.write(e);
+
+
+
+        document.write("<br>")
+        // search
+        // it will return index number
+        var str = "hellow world"
+        var f = str.search("hellow");
+        document.write(f)
+        document.write("<br>")
+
+
+        // match
+        var str = "hellow world"
+        var g = str.match(/hellow/g);
+        document.write(g)
+        document.write("<br>")
+
+
+        // indexof
+        var str = "hellow world"
+        var h = str.indexOf("world");
+        document.write(h)
+
+
+        document.write("<br>")
+        // lastindexof
+        var str = "hellow world"
+        var i = str.lastIndexOf("hellow");
+        document.write(i)
+        document.write("<br>")
+
+
+
+        document.write("<br>")
+        // replace
+        var str = "hellow world"
+        var i = str.replace("hellow", "hello"); //it will replace with hellow ,with hello
+        document.write(i)
+        document.write("<br>")
+
+
+        //    char AT
+        // FIRST WE Define position and it will return that value
+        var str = "hellow world"
+        var j = str.charAt(2)
+        document.write(j);
+
+
+        document.write("<br>")
+        // charcodeat 
+        // it will return sky code 
+        var str = "hellow world"
+        var k = str.charCodeAt(2)
+        document.write(k);
+        document.write("<br>")
+
+
+        document.write("<br>")
+        // charcodeat 
+        // it will return sky code  char
+        // var str = "hellow world"
+        var l = String.fromCharCode(90)
+        document.write(l);
+        document.write("<br>")
+
+
+
+        document.write("<br>")
+        //    concat
+        var str = "hellow "
+        var str2 = " world"
+        var m = str.concat(str2);
+        document.write(m);
+        document.write("<br>")
+
+
+
+
+        document.write("<br>")
+        //    concat
+        var str = "hellow "
+        var str2 = " world"
+        var m = str.concat(str2);
+        document.write(m);
+        document.write("<br>")
+
+        // split
+        var str = "hellow world this is javascript "
+        var n = str.split(" ");
+        document.write(n);
+        document.write("<br>")
+
+
+
+        //  repeat
+        // it repeat this value and prints that how much you want
+        var str = "hellow world this is javascript "
+        var o = str.repeat(2);
+        document.write(o);
+        document.write("<br>")
+
+
+        // slice
+        //it is used to breack value which we want
+        var str = "hellow world this is javascript "
+        var p = str.slice(0, 5)//. we used from where to where u need the value
+        document.write(p);
+        document.write("<br>")
+        // substr also work slice
+
+
+        // tostring
+        var p = "hellow world this is javascript "
+        var q = p.valueOf()
+        document.write(q);
+
+
+        // tostring 
+        // it will convert all values in to string
+
+    </script>
+</body>
+
+</html>
